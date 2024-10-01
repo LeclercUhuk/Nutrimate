@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/profile_user" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_picture"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Nama Anda"
+        android:textSize="18dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="ID: xxxxxxxxxx"
+        android:textSize="14dp"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_id"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- edit email -->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@drawable/edit_text_bkg"
+            android:padding="10dp"
+            android:textColor="@color/black" />
+
+        <!-- Edit birth date -->
+        <EditText
+            android:id="@+id/et_dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Of Birth"
+            android:background="@drawable/edit_text_bkg"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black" />
+
+        <!-- Edit gender -->
+        <EditText
+            android:id="@+id/et_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Gender"
+            android:background="@drawable/edit_text_bkg"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:focusable="false"
+            android:clickable="true" />
+
+        <!-- Logout -->
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Logout"
+            android:backgroundTint="@color/brown"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
