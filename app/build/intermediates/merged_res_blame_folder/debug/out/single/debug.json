@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_nutrisi_indomie_kalduayam.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/nutrisi_indomie_kalduayam.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_profile_icon.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/profile_icon.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_beverage_screen.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/beverage_screen.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.nutrimate.app-pngs-27:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_home_screen.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/home_screen.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_beverage_icon.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/beverage_icon.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_box_nutrisi.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/box_nutrisi.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_search_icon.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/search_icon.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_login_screen.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/login_screen.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_recipe_icon.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/recipe_icon.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_custom_edittext.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/custom_edittext.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_food_icon.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/food_icon.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_goodtime_double_choc.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/goodtime_double_choc.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_ultramilk_coklat_200ml.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/ultramilk_coklat_200ml.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_profile_box_icon.png.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/profile_box_icon.png"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_search_bkg.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/search_bkg.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_home_icon_black.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/home_icon_black.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_custom_button_outline.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/custom_button_outline.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_blur_effect.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/blur_effect.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_calculate_icon.png.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/calculate_icon.png"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_edit_text_bkg.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/edit_text_bkg.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_tehkotak_200ml.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/tehkotak_200ml.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_rec_food_item.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/rec_food_item.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_food_screen.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/food_screen.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_rec_beverage_item.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/rec_beverage_item.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_profile_icon_black.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/profile_icon_black.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_signup_screen.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/signup_screen.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_chitato_sapi_panggang.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/chitato_sapi_panggang.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_background.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/background.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_box_recview_item.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/box_recview_item.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_cocacola_390ml.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/cocacola_390ml.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_profile_box.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/profile_box.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_arrow_icon.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/arrow_icon.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_edit_profile.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/edit_profile.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_profile_user.png.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/profile_user.png"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_indomie_kaldu_ayam.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/indomie_kaldu_ayam.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/layout_profile_screen.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/layout/profile_screen.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_home_icon.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/home_icon.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_comingsoon_icon.jpg.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/comingsoon_icon.jpg"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.nutrimate.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.nutrimate.app-merged_res-31:/drawable_upgrade_premium_icon.png.flat",
+        "source": "com.example.nutrimate.app-main-33:/drawable/upgrade_premium_icon.png"
+    }
+]

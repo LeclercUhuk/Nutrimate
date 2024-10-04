@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Home"
+        android:id="@+id/hometext"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <!-- Seach bar -->
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:id="@+id/searchView"
+        app:iconifiedByDefault="false"
+        app:searchHintIcon="@null"
+        app:queryHint="Seach"
+        android:focusable="false"
+        app:closeIcon="@drawable/search_icon"
+        app:searchIcon="@drawable/search_icon"
+        android:background="@drawable/search_bkg"
+        android:backgroundTint="@color/lightgray"
+        android:layout_below="@id/hometext"/>
+
+   <!-- Card view food -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardUseCompatPadding="true"
+        android:backgroundTint="@color/pastelgreen"
+        android:id="@+id/cardFood"
+        android:layout_below="@id/searchView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                 android:layout_width="60dp"
+                 android:layout_height="60dp"
+                android:id="@+id/iconFood"
+                android:src="@drawable/food_icon"/>
+
+            <TextView
+                android:id="@+id/texticonF"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Food"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card view beverage -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardUseCompatPadding="true"
+        android:backgroundTint="@color/pastelgreen"
+        android:id="@+id/cardBeverage"
+        android:layout_below="@id/cardFood">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/iconBeverage"
+                android:src="@drawable/beverage_icon"/>
+
+            <TextView
+                android:id="@+id/texticonB"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Beverage"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card view coming soon -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        app:cardCornerRadius="20dp"
+        app:cardUseCompatPadding="true"
+        android:backgroundTint="@color/pastelgreen"
+        android:id="@+id/cardComingSoon"
+        android:layout_below="@id/cardBeverage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/iconComingSoon"
+                android:src="@drawable/comingsoon_icon"/>
+
+            <TextView
+                android:id="@+id/textComingSoon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="Coming Soon!"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Text recomendation -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Recommendation"
+        android:id="@+id/recommendationtext"
+        android:textSize="18dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_below="@id/cardComingSoon"/>
+
+    <!-- Card view member fitur -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@id/recommendationtext">
+
+        <!-- Card view diet recipe -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardRecipe"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="@color/pastelgreen"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintEnd_toStartOf="@id/cardCalculate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/iconRecipe"
+                    android:src="@drawable/recipe_icon"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/recipetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:text="Diet Recipe"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Card view auto calculate calories -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCalculate"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            app:cardBackgroundColor="@color/pastelgreen"
+            android:layout_margin="8dp"
+            android:elevation="4dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/cardRecipe"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/iconCalculate"
+                    android:src="@drawable/calculate_icon"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/calculatetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:text="Auto Calculate Calories"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+    <!-- Bar home dan profile -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/brown"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/home_icon_black"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/profile_icon"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+    </LinearLayout>
+</RelativeLayout>
